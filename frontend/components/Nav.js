@@ -2,11 +2,11 @@ import Link from 'next/link'
 
 const Nav = () => (
     <div className="nav-bar">
-        <Link href="/index">
-            <a>Home!</a>
+        <Link href="/">
+            <a>Home</a>
         </Link>
         <Link href="/sell">
-            <a>Sell!</a>
+            <a>Sell</a>
         </Link>
     </div>
 )
